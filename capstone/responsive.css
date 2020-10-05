@@ -1,0 +1,112 @@
+@media screen and (max-width: 768px) {
+  #header-1 {
+    width: 100%;
+  }
+
+  #border {
+    margin: 0;
+  }
+  h1 {
+    position: absolute;
+    padding-bottom: 320px;
+    padding-left: 2px;
+    font-size: 24px;
+  }
+
+  #intro {
+    padding-right: 0px;
+  }
+
+  .bold {
+    margin-right: 0;
+  }
+
+  #intro .introduction {
+    margin-left: 5%;
+  }
+
+  #interests .introduction {
+    margin-left: 11%;
+  }
+
+  #skills figure {
+    margin-left: 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  #fig2 {
+    position: absolute;
+    padding-left: 600px;
+  }
+
+  #skills #fig2 {
+    margin-left: 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  #skills figure {
+    margin-right: 9%;
+  }
+
+  #skills figure:nth-last-of-type(1) {
+    margin: 0;
+  }
+
+  #skills figure figcaption {
+    display: none;
+  }
+
+  #skills figure img {
+    height: 72px;
+    width: 60px;
+    margin-bottom: 12px;
+  }
+
+  #education .edu1 {
+    margin-left: 9%;
+  }
+
+  .edu1,
+  .exp1 {
+    display: block;
+  }
+
+  .edu1 .date,
+  .exp1 .date {
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  #experience .educationbody {
+    margin-left: 8%;
+  }
+
+  #projects .project {
+    margin-left: 12%;
+  }
+
+  .right {
+    display: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .info,
+  .section {
+    display: block;
+  }
+
+  .section .item-title {
+    margin-bottom: 12px;
+  }
+
+  .section .item-body {
+    margin: 0;
+  }
+}
